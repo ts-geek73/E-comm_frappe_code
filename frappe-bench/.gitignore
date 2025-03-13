@@ -1,0 +1,47 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Frappe specific
+.env
+*.log
+*.pid
+*.sqlite3
+*.db
+*.tar
+*.gz
+*.tgz
+*.swp
+*.swo
+
+# Frappe site folders
+sites/*
+!sites/{your_site}/sites/*
+
+# Node.js
+node_modules/
+bower_components/
+
+# Frappe build directories
+assets/
+public/
+files/
+
+# VS Code settings (optional, if you are using VS Code)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Editor backup files
+*~

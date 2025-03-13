@@ -1,0 +1,4 @@
+my sql : 1234
+Administrator of erp next : Admin@1234
+ERP next set-up wizard : e-commrce.erpnext
+bench --site e-commerce.tect install-app erpnext
