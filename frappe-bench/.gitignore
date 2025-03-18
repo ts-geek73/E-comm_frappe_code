@@ -23,7 +23,8 @@ build
 
 # Frappe site folders
 sites/*
-!sites/{your_site}/sites/*
+!sites/e_commerce_website/*
+!sites/erpnext.localhost/*
 
 # Node.js
 node_modules/
