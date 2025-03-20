@@ -1,48 +1,59 @@
-# Python
-*.pyc
-*.pyo
-*.pyd
-__pycache__
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
 *.so
-*.egg
-*.egg-info
-dist
-build
+frappe-bench/logs
 
-# Frappe specific
-.env
+# Distribution / packaging
+.dist/
+build/
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+*.whl
+
+# Log files
 *.log
-*.pid
-*.sqlite3
-*.db
-*.tar
-*.gz
-*.tgz
-*.swp
-*.swo
 
-# Frappe site folders
-sites/*
-!sites/e_commerce_website/*
-!sites/erpnext.localhost/*
+# Bench-specific files
+bench/logs/
+bench/sites/*/logs/
+bench/sites/*/pids/
+bench/sites/*/public/files/ # If you don't want to track user uploaded files.
+bench/sites/*/private/files/
+bench/sites/*/assets/ # if you are working with a build process
+bench/sites/*/site_config.json # Keep site config local
+bench/sites/*/locks/
 
 # Node.js
 node_modules/
-bower_components/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Frappe build directories
-assets/
-public/
-files/
-
-# VS Code settings (optional, if you are using VS Code)
+# VS Code
 .vscode/
 
-# macOS system files
+# IDE specific files.
+.idea/
+*.swp
+
+# OS generated files
 .DS_Store
-
-# Windows system files
 Thumbs.db
-
-# Editor backup files
-*~

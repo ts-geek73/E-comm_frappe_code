@@ -1,0 +1,41 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "e_commerce_website": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "d03f61d2dca9b18438b053ef7673183fe2722ec8",
+            "branch": "e-commerce"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "98690c42b04d188ac465f18e6b89157ede740fe6",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "16.0.0-dev"
+    },
+    "webshop": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "f89eccd0b98bfbac437f7821ba701c7eeeb955b0",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    }
+}
