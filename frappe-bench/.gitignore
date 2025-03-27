@@ -1,15 +1,4 @@
-# Python bytecode
-__pycache__/
-*.py[cod]
 
-# Compiled source #
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-frappe-bench/logs
 
 # Distribution / packaging
 .dist/
@@ -46,14 +35,3 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# VS Code
-.vscode/
-
-# IDE specific files.
-.idea/
-*.swp
-
-# OS generated files
-.DS_Store
-Thumbs.db
